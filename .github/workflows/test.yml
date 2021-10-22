@@ -13,6 +13,7 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Check
         run: |
-          . .circleci/test.sh
+          . .github/workflows/test.sh

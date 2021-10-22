@@ -3,7 +3,7 @@ name: Tets
 on:
   push:
     paths:
-        - './.circleci/**.txt'
+        - '.circleci/**.txt'
     branches-ignore:
         - 'master'
         - 'main'

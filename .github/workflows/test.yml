@@ -15,4 +15,4 @@ jobs:
     steps:
       - name: Check
         run: |
-          echo "HELLO WORLD"
+          . test.sh

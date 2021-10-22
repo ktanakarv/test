@@ -15,4 +15,4 @@ jobs:
     steps:
       - name: Check
         run: |
-          . test.sh
+          . .github/workflows/test.sh
